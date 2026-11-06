@@ -1,8 +1,8 @@
-# AgentNexus Plugin Registry（官方插件目录）
+# AgentNexus-Browse-Plugin-Registry（官方插件目录）
 
-AgentNexus 浏览器扩展的官方插件市场目录。本仓库通过 PR 登记插件，GitHub Actions
-自动校验登记项、重建带签名的目录快照并发布到 GitHub Pages；扩展内置本目录地址
-与目录公钥，用户在插件中心搜索/安装/更新全程无需接触密钥。
+AgentNexus 浏览器扩展（AgentNexus-Browse-Plugin）的官方插件市场目录。本仓库通过 PR 登记
+插件，GitHub Actions 自动校验登记项、重建带签名的目录快照并发布到 GitHub Pages；扩展内置
+本目录地址与目录公钥，用户在插件中心搜索/安装/更新全程无需接触密钥。
 
 ## 登记一个插件
 

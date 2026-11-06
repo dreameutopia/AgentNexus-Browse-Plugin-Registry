@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 官方插件目录构建脚本（在 agentnexus-plugin-registry 仓库的 CI 中运行）。
+ * 官方插件目录构建脚本（在 AgentNexus-Browse-Plugin-Registry 仓库的 CI 中运行）。
  * 校验 plugins/ 下全部登记项并生成未签名目录 unsigned-catalog.json；
  * 签名与部署由 workflow 调用宿主仓库固定 SDK（plugin-cli catalog-sign）完成。
  *

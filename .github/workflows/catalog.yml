@@ -1,9 +1,9 @@
-# agentnexus-plugin-registry 官方插件目录构建。
+# AgentNexus-Browse-Plugin-Registry 官方插件目录构建。
 # 复制说明：本文件来自 AgentNexus 宿主仓库 docs/plugin-registry/catalog.yml 模板，
 # 在目录仓库 .github/workflows/catalog.yml 使用。
 # 前置配置（仓库 Settings）：
 # - Variables: AGENTNEXUS_SDK_REPOSITORY（宿主 owner/repo）、AGENTNEXUS_SDK_COMMIT（40 位 SHA）、
-#   CATALOG_URL（已部署目录地址，如 https://<owner>.github.io/agentnexus-plugin-registry/catalog.json）
+#   CATALOG_URL（已部署目录地址，如 https://<owner>.github.io/agentnexus-browse-plugin-registry/catalog.json）
 # - 受保护环境 catalog-signing 的 secret：CATALOG_PRIVATE_JWK（Ed25519 私钥 JWK，JSON 字符串；
 #   对应公钥 Base64 内置于扩展 utils/plugins/official-catalog.ts，私钥绝不入库）
 # - Settings → Pages：部署分支 gh-pages（首次 Action 成功后启用）
